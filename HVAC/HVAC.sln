@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordAddIn1", "WordAddIn1\WordAddIn1.csproj", "{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocument2", "WordDocument2\WordDocument2.csproj", "{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordTemplate1", "WordTemplate1\WordTemplate1.csproj", "{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
