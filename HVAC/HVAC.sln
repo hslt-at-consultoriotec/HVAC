@@ -3,17 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordAddIn1", "WordAddIn1\WordAddIn1.csproj", "{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocument2", "WordDocument2\WordDocument2.csproj", "{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordTemplate1", "WordTemplate1\WordTemplate1.csproj", "{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWebAddIn1", "WordWebAddIn1\WordWebAddIn1.csproj", "{2803B037-4E90-405B-809B-98E70CA536D6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordWebAddIn1Web", "WordWebAddIn1Web\WordWebAddIn1Web.csproj", "{7A024D62-6F58-4C33-82CB-D5D53163DA48}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordTemplate3", "WordTemplate3\WordTemplate3.csproj", "{A84EE5D8-9EDB-4ED9-A004-FDEDE4B67E71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEM_CALC R00", "MEM_CALC R00\MEM_CALC R00.csproj", "{9852591A-6851-411C-84A8-FA5A8DD2397D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,32 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA66AEA7-9131-47DB-A648-F81AB6EDD5FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C53B76B-76B3-493D-AC38-89BE9BA55DFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6E3B7AD-E9AE-42CF-A88B-3644E78DAA46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2803B037-4E90-405B-809B-98E70CA536D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2803B037-4E90-405B-809B-98E70CA536D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2803B037-4E90-405B-809B-98E70CA536D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{2803B037-4E90-405B-809B-98E70CA536D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2803B037-4E90-405B-809B-98E70CA536D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2803B037-4E90-405B-809B-98E70CA536D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{7A024D62-6F58-4C33-82CB-D5D53163DA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A024D62-6F58-4C33-82CB-D5D53163DA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A024D62-6F58-4C33-82CB-D5D53163DA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A024D62-6F58-4C33-82CB-D5D53163DA48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A84EE5D8-9EDB-4ED9-A004-FDEDE4B67E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A84EE5D8-9EDB-4ED9-A004-FDEDE4B67E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A84EE5D8-9EDB-4ED9-A004-FDEDE4B67E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A84EE5D8-9EDB-4ED9-A004-FDEDE4B67E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9852591A-6851-411C-84A8-FA5A8DD2397D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9852591A-6851-411C-84A8-FA5A8DD2397D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9852591A-6851-411C-84A8-FA5A8DD2397D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9852591A-6851-411C-84A8-FA5A8DD2397D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
