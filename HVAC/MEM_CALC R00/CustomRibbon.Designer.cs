@@ -1,13 +1,13 @@
 ﻿namespace MEM_CALC_R00
 {
-    partial class CustomRibbon : Microsoft.Office.Tools.Ribbon.RibbonBase
+    partial class HVAC : Microsoft.Office.Tools.Ribbon.RibbonBase
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        public CustomRibbon()
+        public HVAC()
             : base(Globals.Factory.GetRibbonFactory())
         {
             InitializeComponent();
@@ -34,46 +34,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tab1 = this.Factory.CreateRibbonTab();
-            this.group1 = this.Factory.CreateRibbonGroup();
-            this.tab1.SuspendLayout();
+            this.tabCombinar = this.Factory.CreateRibbonTab();
+            this.groupDestino = this.Factory.CreateRibbonGroup();
+            this.button1 = this.Factory.CreateRibbonButton();
+            this.tabCombinar.SuspendLayout();
+            this.groupDestino.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tab1
+            // tabCombinar
             // 
-            this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
-            this.tab1.Groups.Add(this.group1);
-            this.tab1.Label = "TabAddIns";
-            this.tab1.Name = "tab1";
+            this.tabCombinar.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
+            this.tabCombinar.Groups.Add(this.groupDestino);
+            this.tabCombinar.Label = "Combinar";
+            this.tabCombinar.Name = "tabCombinar";
             // 
-            // group1
+            // groupDestino
             // 
-            this.group1.Label = "group1";
-            this.group1.Name = "group1";
+            this.groupDestino.Items.Add(this.button1);
+            this.groupDestino.Label = "Destino";
+            this.groupDestino.Name = "groupDestino";
             // 
-            // CustomRibbon
+            // button1
             // 
-            this.Name = "CustomRibbon";
+            this.button1.Label = "button1";
+            this.button1.Name = "button1";
+            // 
+            // HVAC
+            // 
+            this.Name = "HVAC";
             this.RibbonType = "Microsoft.Word.Document";
-            this.Tabs.Add(this.tab1);
+            this.Tabs.Add(this.tabCombinar);
             this.Load += new Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler(this.CustomRibbon_Load);
-            this.tab1.ResumeLayout(false);
-            this.tab1.PerformLayout();
+            this.tabCombinar.ResumeLayout(false);
+            this.tabCombinar.PerformLayout();
+            this.groupDestino.ResumeLayout(false);
+            this.groupDestino.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        internal Microsoft.Office.Tools.Ribbon.RibbonTab tab1;
-        internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
+        internal Microsoft.Office.Tools.Ribbon.RibbonTab tabCombinar;
+        internal Microsoft.Office.Tools.Ribbon.RibbonGroup groupDestino;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
     }
 
     partial class ThisRibbonCollection
     {
-        internal CustomRibbon CustomRibbon
+        internal HVAC CustomRibbon
         {
-            get { return this.GetRibbon<CustomRibbon>(); }
+            get { return this.GetRibbon<HVAC>(); }
         }
     }
 }

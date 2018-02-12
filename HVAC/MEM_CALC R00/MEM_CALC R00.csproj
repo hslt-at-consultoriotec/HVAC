@@ -16,6 +16,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <BootstrapperComponentsLocation>HomeSite</BootstrapperComponentsLocation>
     <ProjectGuid>{9852591A-6851-411C-84A8-FA5A8DD2397D}</ProjectGuid>
+    <SolutionID>c8c6aaf9-8cf4-4882-afe9-d10f1e28e053</SolutionID>
   </PropertyGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
@@ -106,6 +107,7 @@
     <Compile Include="ThisDocument.cs">
       <DependentUpon>MEM_CALC R00.dotm</DependentUpon>
     </Compile>
+    <None Include="MEM_CALC R00_TemporaryKey.pfx" />
     <None Include="ThisDocument.Designer.xml">
       <DependentUpon>ThisDocument.cs</DependentUpon>
     </None>
@@ -138,6 +140,15 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MEM_CALC R00_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>681C98D1D43CE5E399C3F3409FF6A74B71AB2353</ManifestCertificateThumbprint>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />

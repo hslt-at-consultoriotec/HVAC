@@ -6,9 +6,9 @@ using Microsoft.Office.Tools.Ribbon;
 
 namespace MEM_CALC_R00
 {
-    public partial class HVAC
+    public partial class Ribbon1
     {
-        private void CustomRibbon_Load(object sender, RibbonUIEventArgs e)
+        private void Ribbon1_Load(object sender, RibbonUIEventArgs e)
         {
 
         }
