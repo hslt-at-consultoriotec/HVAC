@@ -97,12 +97,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmDataViewer.resx">
+      <DependentUpon>FrmDataViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThisDocument.resx">
+      <DependentUpon>ThisDocument.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="MEM_CALC R00.dotm" />
     <Compile Include="CustomRibbon.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CustomRibbon.Designer.cs">
       <DependentUpon>CustomRibbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDataViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataViewer.Designer.cs">
+      <DependentUpon>FrmDataViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="ThisDocument.cs">
       <DependentUpon>MEM_CALC R00.dotm</DependentUpon>

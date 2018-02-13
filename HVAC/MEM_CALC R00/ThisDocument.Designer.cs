@@ -23,6 +23,10 @@ namespace MEM_CALC_R00 {
         
         internal Microsoft.Office.Tools.Word.Bookmark OLE_LINK4;
         
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl ptcctrlRazonSocialCliente;
+        
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl ptcctrlAreaCliente;
+        
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         private global::System.Object missing = global::System.Type.Missing;
         
@@ -128,6 +132,8 @@ namespace MEM_CALC_R00 {
             this.ActionsPane.BeginInit();
             this.OLE_LINK3.BeginInit();
             this.OLE_LINK4.BeginInit();
+            this.ptcctrlRazonSocialCliente.BeginInit();
+            this.ptcctrlAreaCliente.BeginInit();
         }
         
         /// 
@@ -135,6 +141,8 @@ namespace MEM_CALC_R00 {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void EndInitialization() {
+            this.ptcctrlAreaCliente.EndInit();
+            this.ptcctrlRazonSocialCliente.EndInit();
             this.OLE_LINK4.EndInit();
             this.OLE_LINK3.EndInit();
             this.ActionsPane.EndInit();
@@ -149,6 +157,8 @@ namespace MEM_CALC_R00 {
             this.ActionsPane = Globals.Factory.CreateActionsPane(null, null, "ActionsPane", "ActionsPane", this);
             this.OLE_LINK3 = Globals.Factory.CreateBookmark(null, null, "OLE_LINK3", "OLE_LINK3", this);
             this.OLE_LINK4 = Globals.Factory.CreateBookmark(null, null, "OLE_LINK4", "OLE_LINK4", this);
+            this.ptcctrlRazonSocialCliente = Globals.Factory.CreatePlainTextContentControl(null, null, "3264396646", "ptcctrlRazonSocialCliente", this);
+            this.ptcctrlAreaCliente = Globals.Factory.CreatePlainTextContentControl(null, null, "1075477280", "ptcctrlAreaCliente", this);
         }
         
         /// 
@@ -156,6 +166,30 @@ namespace MEM_CALC_R00 {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void InitializeComponents() {
+            // 
+            // ActionsPane
+            // 
+            this.ActionsPane.AutoSize = false;
+            this.ActionsPane.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            // 
+            // OLE_LINK3
+            // 
+            this.OLE_LINK3.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // OLE_LINK4
+            // 
+            this.OLE_LINK4.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // ptcctrlRazonSocialCliente
+            // 
+            this.ptcctrlRazonSocialCliente.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // ptcctrlAreaCliente
+            // 
+            this.ptcctrlAreaCliente.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // ThisDocument
+            // 
         }
         
         /// 
@@ -170,6 +204,8 @@ namespace MEM_CALC_R00 {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         protected override void OnShutdown() {
+            this.ptcctrlAreaCliente.Dispose();
+            this.ptcctrlRazonSocialCliente.Dispose();
             this.OLE_LINK4.Dispose();
             this.OLE_LINK3.Dispose();
             this.ActionsPane.Dispose();

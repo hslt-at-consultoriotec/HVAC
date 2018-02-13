@@ -36,7 +36,7 @@
         {
             this.tabCombinar = this.Factory.CreateRibbonTab();
             this.groupDestino = this.Factory.CreateRibbonGroup();
-            this.button1 = this.Factory.CreateRibbonButton();
+            this.btnOpenDesignTool = this.Factory.CreateRibbonButton();
             this.tabCombinar.SuspendLayout();
             this.groupDestino.SuspendLayout();
             this.SuspendLayout();
@@ -50,14 +50,15 @@
             // 
             // groupDestino
             // 
-            this.groupDestino.Items.Add(this.button1);
+            this.groupDestino.Items.Add(this.btnOpenDesignTool);
             this.groupDestino.Label = "Destino";
             this.groupDestino.Name = "groupDestino";
             // 
-            // button1
+            // btnOpenDesignTool
             // 
-            this.button1.Label = "button1";
-            this.button1.Name = "button1";
+            this.btnOpenDesignTool.Label = "Selecciona diseño...";
+            this.btnOpenDesignTool.Name = "btnOpenDesignTool";
+            this.btnOpenDesignTool.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
             // 
             // HVAC
             // 
@@ -77,7 +78,7 @@
 
         internal Microsoft.Office.Tools.Ribbon.RibbonTab tabCombinar;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup groupDestino;
-        internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnOpenDesignTool;
     }
 
     partial class ThisRibbonCollection
