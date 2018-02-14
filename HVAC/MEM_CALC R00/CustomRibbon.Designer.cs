@@ -36,7 +36,9 @@
         {
             this.tabCombinar = this.Factory.CreateRibbonTab();
             this.groupDestino = this.Factory.CreateRibbonGroup();
-            this.btnOpenDesignTool = this.Factory.CreateRibbonButton();
+            this.btnImportDesign = this.Factory.CreateRibbonButton();
+            this.cbxDesignList = this.Factory.CreateRibbonComboBox();
+            this.btnDataViewer = this.Factory.CreateRibbonButton();
             this.tabCombinar.SuspendLayout();
             this.groupDestino.SuspendLayout();
             this.SuspendLayout();
@@ -50,15 +52,33 @@
             // 
             // groupDestino
             // 
-            this.groupDestino.Items.Add(this.btnOpenDesignTool);
+            this.groupDestino.Items.Add(this.btnImportDesign);
+            this.groupDestino.Items.Add(this.cbxDesignList);
+            this.groupDestino.Items.Add(this.btnDataViewer);
             this.groupDestino.Label = "Destino";
             this.groupDestino.Name = "groupDestino";
             // 
-            // btnOpenDesignTool
+            // btnImportDesign
             // 
-            this.btnOpenDesignTool.Label = "Selecciona diseño...";
-            this.btnOpenDesignTool.Name = "btnOpenDesignTool";
-            this.btnOpenDesignTool.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
+            this.btnImportDesign.Label = "Importar diseño...";
+            this.btnImportDesign.Name = "btnImportDesign";
+            this.btnImportDesign.ShowImage = true;
+            this.btnImportDesign.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnImportDesign_Click);
+            // 
+            // cbxDesignList
+            // 
+            this.cbxDesignList.Label = "Vincular diseño";
+            this.cbxDesignList.Name = "cbxDesignList";
+            this.cbxDesignList.ShowImage = true;
+            this.cbxDesignList.Text = null;
+            this.cbxDesignList.TextChanged += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.cbxDesignList_TextChanged);
+            // 
+            // btnDataViewer
+            // 
+            this.btnDataViewer.Label = "Ver datos...";
+            this.btnDataViewer.Name = "btnDataViewer";
+            this.btnDataViewer.ShowImage = true;
+            this.btnDataViewer.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnDataViewer_Click);
             // 
             // HVAC
             // 
@@ -78,7 +98,9 @@
 
         internal Microsoft.Office.Tools.Ribbon.RibbonTab tabCombinar;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup groupDestino;
-        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnOpenDesignTool;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnDataViewer;
+        internal Microsoft.Office.Tools.Ribbon.RibbonComboBox cbxDesignList;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnImportDesign;
     }
 
     partial class ThisRibbonCollection

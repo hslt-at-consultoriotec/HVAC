@@ -27,6 +27,10 @@ namespace MEM_CALC_R00 {
         
         internal Microsoft.Office.Tools.Word.PlainTextContentControl ptcctrlAreaCliente;
         
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl plainTextContentControl1;
+        
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl plainTextContentControl2;
+        
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         private global::System.Object missing = global::System.Type.Missing;
         
@@ -134,6 +138,8 @@ namespace MEM_CALC_R00 {
             this.OLE_LINK4.BeginInit();
             this.ptcctrlRazonSocialCliente.BeginInit();
             this.ptcctrlAreaCliente.BeginInit();
+            this.plainTextContentControl1.BeginInit();
+            this.plainTextContentControl2.BeginInit();
         }
         
         /// 
@@ -141,6 +147,8 @@ namespace MEM_CALC_R00 {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void EndInitialization() {
+            this.plainTextContentControl2.EndInit();
+            this.plainTextContentControl1.EndInit();
             this.ptcctrlAreaCliente.EndInit();
             this.ptcctrlRazonSocialCliente.EndInit();
             this.OLE_LINK4.EndInit();
@@ -159,6 +167,8 @@ namespace MEM_CALC_R00 {
             this.OLE_LINK4 = Globals.Factory.CreateBookmark(null, null, "OLE_LINK4", "OLE_LINK4", this);
             this.ptcctrlRazonSocialCliente = Globals.Factory.CreatePlainTextContentControl(null, null, "3264396646", "ptcctrlRazonSocialCliente", this);
             this.ptcctrlAreaCliente = Globals.Factory.CreatePlainTextContentControl(null, null, "1075477280", "ptcctrlAreaCliente", this);
+            this.plainTextContentControl1 = Globals.Factory.CreatePlainTextContentControl(null, null, "1413047601", "plainTextContentControl1", this);
+            this.plainTextContentControl2 = Globals.Factory.CreatePlainTextContentControl(null, null, "1090586786", "plainTextContentControl2", this);
         }
         
         /// 
@@ -188,6 +198,14 @@ namespace MEM_CALC_R00 {
             // 
             this.ptcctrlAreaCliente.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
             // 
+            // plainTextContentControl1
+            // 
+            this.plainTextContentControl1.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // plainTextContentControl2
+            // 
+            this.plainTextContentControl2.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
             // ThisDocument
             // 
         }
@@ -204,6 +222,8 @@ namespace MEM_CALC_R00 {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         protected override void OnShutdown() {
+            this.plainTextContentControl2.Dispose();
+            this.plainTextContentControl1.Dispose();
             this.ptcctrlAreaCliente.Dispose();
             this.ptcctrlRazonSocialCliente.Dispose();
             this.OLE_LINK4.Dispose();
